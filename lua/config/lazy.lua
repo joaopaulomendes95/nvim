@@ -50,4 +50,7 @@ require("lazy").setup({
       },
     },
   },
+  -- Use Eslint for fix on save and prettier for formatting
+  { import = "lazyvim.plugins.extras.linting.eslint" },
+  { import = "lazyvim.plugins.extras.formatting.prettier" },
 })
