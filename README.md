@@ -5,5 +5,8 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 ## Modifications
 
-- new color theme
+- transparent tokyonight
+- changed surrounding mappings
+- supertab completions
 - file explorer shows hidden files by default
+- some lspconfig setting for ESlint
