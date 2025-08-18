@@ -10,3 +10,5 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 - supertab completions
 - file explorer shows hidden files by default
 - some lspconfig setting for ESlint
+- column at 80px
+- animations off

@@ -3,3 +3,5 @@
 -- Add any additional options here
 
 vim.opt.colorcolumn = "80"
+
+vim.g.snacks_animate = false
