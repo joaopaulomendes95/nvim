@@ -2,7 +2,6 @@
   "extras": [
     "lazyvim.plugins.extras.coding.mini-surround",
     "lazyvim.plugins.extras.coding.nvim-cmp",
-<<<<<<< HEAD
     "lazyvim.plugins.extras.lang.clangd",
     "lazyvim.plugins.extras.lang.go",
     "lazyvim.plugins.extras.lang.json",
@@ -11,11 +10,6 @@
     "lazyvim.plugins.extras.lang.sql",
     "lazyvim.plugins.extras.lang.svelte",
     "lazyvim.plugins.extras.lang.tailwind",
-=======
-    "lazyvim.plugins.extras.lang.go",
-    "lazyvim.plugins.extras.lang.json",
-    "lazyvim.plugins.extras.lang.markdown",
->>>>>>> ad599d6b8b04f1d9d3d463d531b3760eea505e52
     "lazyvim.plugins.extras.lang.typescript"
   ],
   "install_version": 8,

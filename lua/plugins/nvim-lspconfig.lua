@@ -1,21 +1,14 @@
 return {
   -- Fix clangd offset encoding
-  {
-    "neovim/nvim-lspconfig",
-    opts = {
-      setup = {
-        clangd = function(_, opts)
-          opts.capabilities.offsetEncoding = { "utf-16" }
-        end,
-      },
-    },
-  },
   -- Add Eslint and use it for formatting
   {
     "neovim/nvim-lspconfig",
     opts = {
       servers = { eslint = {} },
       setup = {
+        clangd = function(_, opts)
+          opts.capabilities.offsetEncoding = { "utf-16" }
+        end,
         eslint = function()
           require("lazyvim.util").lsp.on_attach(function(client)
             if client.name == "eslint" then
@@ -27,5 +20,5 @@ return {
         end,
       },
     },
-  }
+  },
 }
